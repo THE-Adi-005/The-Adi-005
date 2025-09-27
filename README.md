@@ -8,15 +8,15 @@
 
 ## 🌟 Featured Projects  
 
-### [Sports-Assess](https://github.com/YOURUSERNAME/Sports-Assess)  
+### [Sports-Assess](https://github.com/The-Adi-005/SIH-Sports)  
 🏆 One-stop sports assessment app, recognized at **SIH 2025**.  
 ![sports-demo](assets/sports-demo.gif)  
 
-### [ML-Anomaly-Detection](https://github.com/YOURUSERNAME/ML-Anomaly-Detection)  
+### [ML-Anomaly-Detection](https://github.com/The-Adi-005/ML-project)  
 📷 Detecting anomalies in **cloud vs non-cloud images** with ML pipelines.  
 ![ml-demo](assets/ml-demo.png)  
 
-### [Breast-Cancer-Detection](https://github.com/YOURUSERNAME/Breast-Cancer-Detection)  
+### [Breast-Cancer-Detection](https://github.com/The-Adi-005/Bio-Project-GIT)  
 🧬 Research project — published paper on **breast cancer detection** using ML/DL models.  
 ![bio-demo](assets/bio-demo.png)  
 
@@ -54,20 +54,20 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight" height="160">
+  <img src="https://github-readme-stats.vercel.app/api?username=The-Adi-005&show_icons=true&theme=tokyonight" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=The-Adi-005&layout=compact&theme=tokyonight" height="160">
 </p>  
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOURUSERNAME&theme=tokyonight" height="160">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=The-Adi-005&theme=tokyonight" height="160">
 </p>  
 
 ---
 
 ## 📫 Connect with me  
 
-[![Email](https://img.shields.io/badge/Email-adithya%40email.com-green?style=for-the-badge&logo=gmail)](mailto:adithya@email.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR-LINKEDIN)  
+[![Email](https://img.shields.io/badge/Email-adithya%40email.com-green?style=for-the-badge&logo=gmail)](mailto:adithyakrs2408@email.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/adithya-r-63b216291)  
 
 ---
 
