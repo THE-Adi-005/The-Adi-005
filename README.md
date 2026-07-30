@@ -8,17 +8,17 @@
 
 ## 🌟 Featured Projects  
 
-### [Sports-Assess](https://github.com/The-Adi-005/SIH-Sports)  
-🏆 One-stop sports assessment app, recognized at **SIH 2025**.  
-![sports-demo](assets/sports-demo.gif)  
+### [MiniPat-LLM](https://github.com/The-Adi-005/MiniPat-LLM)  
+🧠 A **Retrieval-Augmented Generation (RAG)** based patent evaluation system integrating **LLMs** for semantic understanding and document comparison.  
+![minipat-demo](assets/minipat-demo.png)  
 
-### [ML-Anomaly-Detection](https://github.com/The-Adi-005/ML-project)  
-📷 Detecting anomalies in **cloud vs non-cloud images** with ML pipelines.  
-![ml-demo](assets/ml-demo.png)  
+### [Video_Captioning_VisionEncoder-Decoder](https://github.com/The-Adi-005/Video_Captioning_VisionEncoder-Decoder)  
+🎥 Implements a **Vision Encoder–Decoder** architecture for **automatic video captioning**, combining CNN-based visual feature extraction with transformer-based text generation.  
+![video-demo](assets/video-demo.gif)  
 
-### [Breast-Cancer-Detection](https://github.com/The-Adi-005/Bio-Project-GIT)  
-🧬 Research project — published paper on **breast cancer detection** using ML/DL models.  
-![bio-demo](assets/bio-demo.png)  
+### [Meat_Quality_Grading](https://github.com/The-Adi-005/Meat_Quality_Grading)  
+🥩 AI-powered system for **grading meat quality** using image processing and deep learning models — enhancing food inspection automation.  
+![meat-demo](assets/meat-demo.png)  
 
 ---
 
