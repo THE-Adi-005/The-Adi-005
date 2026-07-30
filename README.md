@@ -47,13 +47,41 @@ flowchart LR
     class A,G,H io
 ```
 
-### [Video_Captioning_VisionEncoder-Decoder](https://github.com/The-Adi-005/Video_Captioning_VisionEncoder-Decoder)  
-🎥 Implements a **Vision Encoder–Decoder** architecture for **automatic video captioning**, combining CNN-based visual feature extraction with transformer-based text generation.  
-![video-demo](assets/video-demo.gif)  
+### [Video_Captioning_VisionEncoder-Decoder](https://github.com/THE-Adi-005/Video_Captioning_VisionEncoder-Decoder)  
+
 
 ### [Meat_Quality_Grading](https://github.com/The-Adi-005/Meat_Quality_Grading)  
-🥩 AI-powered system for **grading meat quality** using image processing and deep learning models — enhancing food inspection automation.  
-![meat-demo](assets/meat-demo.png)  
+🥩 Deep Learning-based Meat Freshness Classification with Explainable AI
+## 🏗️ Architecture & Pipeline
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    MASTER EXPERIMENT RUNNER                  │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│   ┌─────────────┐  ┌─────────────┐  ┌──────────────────┐   │
+│   │  ConvNet24  │  │  ResNet18   │  │   MobileNetV2    │   │
+│   │  (Custom)   │  │ (Pre-built) │  │   (Pre-built)    │   │
+│   └──────┬──────┘  └──────┬──────┘  └────────┬─────────┘   │
+│          │                │                   │             │
+│   ┌──────┴──────────────┬─┴─────────────┬─────┘             │
+│   │      Optimizers     │               │                   │
+│   │  Adam | SGDM | RMS  │               │                   │
+│   └──────┬──────────────┘               │                   │
+│          │                              │                   │
+│   ┌──────▼──────┐                ┌──────▼──────┐            │
+│   │  Individual │                │   Ensemble  │            │
+│   │  Evaluation │                │   (Avg Prob)│            │
+│   └──────┬──────┘                └──────┬──────┘            │
+│          │                              │                   │
+│   ┌──────▼──────────────────────────────▼──────┐            │
+│   │         OUTPUTS PER CONFIGURATION          │            │
+│   │  • Confusion Matrix (PNG)                  │            │
+│   │  • Metrics CSV (Acc, Prec, Rec, F1)        │            │
+│   │  • Grad-CAM Heatmaps (5 samples)           │            │
+│   └────────────────────────────────────────────┘            │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
