@@ -107,7 +107,9 @@ flowchart LR
 ## 📜 Certifications  
 
 <p align="center">
-  <a href="https://github.com/THE-Adi-005/The-Adi-005/blob/main/assets/Coursera%20EA4JVM09Q5OZ.pdf"><img src="https://github.com/THE-Adi-005/The-Adi-005/blob/main/assets/Coursera%20EA4JVM09Q5OZ.pdf" width="150"></a>
+  <a href="https://github.com/THE-Adi-005/The-Adi-005/blob/main/assets/Coursera%20EA4JVM09Q5OZ.pdf">
+      Supervised Machine Learning: Regression and Classification
+  </a>
   <!-- <a href="assets/cert2.png"><img src="assets/cert2.png" width="150"></a>
   <a href="assets/cert3.png"><img src="assets/cert3.png" width="150"></a> -->
 </p>  
