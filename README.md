@@ -48,8 +48,38 @@ flowchart LR
 ```
 
 ### [Video_Captioning_VisionEncoder-Decoder](https://github.com/THE-Adi-005/Video_Captioning_VisionEncoder-Decoder)  
+```mermaid
+graph LR
+    subgraph Input
+        V["🎥 Video Frames"]
+    end
 
+    subgraph Encoder
+        V --> ViT["ViT-Base\n16x16 Patches"]
+        ViT --> CLS["[CLS] Token"]
+        ViT --> EMB["Spatial Embeddings"]
+    end
 
+    subgraph Auxiliary Heads
+        CLS -.->|detach| FH["Facet Heads"]
+        FER["FER ViT\n7-dim Vector"] -.-> FH
+        FH --> EP["Emotion | Profession | Style"]
+    end
+
+    subgraph Decoder
+        EP -->|Prompt Prefix| GPT2["GPT-2 Decoder"]
+        EMB -->|Cross-Attention| GPT2
+        GPT2 --> CAP["📝 Facet-Aware Caption"]
+    end
+
+    subgraph Evaluation
+        CAP --> EVAL["4-Pillar Pipeline"]
+        EVAL --> NG["BLEU / CIDEr / ROUGE"]
+        EVAL --> SEM["BERTScore / Cosine"]
+        EVAL --> FA["Facet Accuracy"]
+        EVAL --> VLM["Qwen2-VL-2B Judge"]
+    end
+```
 ### [Meat_Quality_Grading](https://github.com/The-Adi-005/Meat_Quality_Grading)  
 🥩 Deep Learning-based Meat Freshness Classification with Explainable AI
 ## 🏗️ Architecture & Pipeline
