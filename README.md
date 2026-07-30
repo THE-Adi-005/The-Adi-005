@@ -8,7 +8,7 @@
 
 ## 🌟 Featured Projects  
 
-### [MiniPat-LLM](https://github.com/The-Adi-005/MiniPat-LLM)  
+### [MiniPat-LLM](https://github.com/The-Adi-005/MiniPat---LLM)  
 🧠 A **Retrieval-Augmented Generation (RAG)** based patent evaluation system integrating **LLMs** for semantic understanding and document comparison.  
 ### Simplified Pipeline View
 
