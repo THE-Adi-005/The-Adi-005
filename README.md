@@ -10,7 +10,42 @@
 
 ### [MiniPat-LLM](https://github.com/The-Adi-005/MiniPat-LLM)  
 🧠 A **Retrieval-Augmented Generation (RAG)** based patent evaluation system integrating **LLMs** for semantic understanding and document comparison.  
-![minipat-demo](assets/minipat-demo.png)  
+### Simplified Pipeline View
+
+```mermaid
+flowchart LR
+    subgraph INPUT["Input"]
+        A["📄 Patent PDF"]
+    end
+
+    subgraph PROCESS["Processing"]
+        B["Text + OCR<br/>Tables<br/>Images"] --> C["Chunking<br/>Captioning"]
+    end
+
+    subgraph STORE["Storage"]
+        D[("ChromaDB<br/>+ BGE-M3")]
+    end
+
+    subgraph RETRIEVE["Retrieval"]
+        E["Semantic Search<br/>+ Re-ranking"]
+    end
+
+    subgraph GENERATE["Generation"]
+        F["Gemini / Qwen<br/>LLM"]
+    end
+
+    subgraph OUTPUT["Output"]
+        G["📝 Summary"]
+        H["📊 Scores"]
+    end
+
+    A --> B --> C --> D
+    D --> E --> F --> G --> H
+
+    classDef default fill:#2d2d2d,stroke:#555,color:#e0e0e0,rx:8
+    classDef io fill:#1e3a5f,stroke:#4a90d9,color:#fff,rx:12
+    class A,G,H io
+```
 
 ### [Video_Captioning_VisionEncoder-Decoder](https://github.com/The-Adi-005/Video_Captioning_VisionEncoder-Decoder)  
 🎥 Implements a **Vision Encoder–Decoder** architecture for **automatic video captioning**, combining CNN-based visual feature extraction with transformer-based text generation.  
